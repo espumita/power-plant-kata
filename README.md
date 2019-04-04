@@ -28,7 +28,7 @@ Power plant
 
 - Areas, cities, streets have a maximum of consume of kWh. This value cannot be exceeded, in case of reach the maximum, power plants should be alerted.
 
-- When a individual buildings electricity consume changes more than 20%  compared with the last previous 3 mounth, power plants should get notified with a message:
+- When a individual buildings electricity consume changes more than 20%  compared with the last previous 3 months, power plants should get notified with a message:
     - A Warning notification in falling consumption
     - An Alert notification in case of overconsume
 
