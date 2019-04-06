@@ -8,7 +8,7 @@ Power plant
 
 - Individual buildings have a monthly electricity report, and this report is based on the amount of consumed electricity of that building during one month.
 
-- Electricity distribution can be categorized by different groups such: areas, cities, streets or individual buildings.
+- Electricity distribution can be categorized by different groups such: areas, cities or individual buildings.
 
 - Each group consume is equal to the sumatory of the individual building consume in each group.
 
@@ -18,7 +18,7 @@ Power plant
 
 
 ## Iteration 2
-- Electric network can fail, then some individual buildings, streets, cities, and/or areas can run out of electricity during a period of time.
+- Electric network can fail, then some individual buildings, cities, and/or areas can run out of electricity during a period of time.
 
 - In this case, electricity is not consumed, so during this period of time, should not appear any consume in the monthly report. But should appear on power plants balance as lost.
 
@@ -26,7 +26,7 @@ Power plant
 
 - When electric network fail, power plants should get notified with an alert.
 
-- Areas, cities, streets have a maximum of consume of kWh. This value cannot be exceeded, in case of reach the maximum, power plants should be alerted.
+- Areas, cities have a maximum of consume of kWh. This value cannot be exceeded, in case of reach the maximum, power plants should be alerted.
 
 - When a individual buildings electricity consume changes more than 20%  compared with the last previous 3 months, power plants should get notified with a message:
     - A Warning notification in falling consumption
