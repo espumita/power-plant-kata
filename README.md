@@ -14,7 +14,7 @@ Power plant
 
     - Example: An area with 3000 buildings should have an average consume of 4kwh * 3000 = 12MW/h
 
-- Power plants have a monthly balance with the cost of the total generated/consumed electricity.
+- Power plants have a monthly balance of the total generated/consumed electricity.
 
 
 ## Iteration 2
